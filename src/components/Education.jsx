@@ -42,7 +42,7 @@ export default function Education() {
               <div className="timeline-header">
                 <div>
                   <h3 className="timeline-title">Análise e Desenvolvimento de Sistemas (ADS)</h3>
-                  <span className="timeline-role">Curso Superior · FATEC SENAI MT — Rondonópolis</span>
+                  <span className="timeline-role">Curso Superior · FATEC SENAI MT</span>
                 </div>
                 <div className="timeline-meta">
                   <span className="timeline-badge badge-progress"><i className="fas fa-spinner"></i> Em andamento</span>

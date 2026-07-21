@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Currículo profissional de Renan Bessa Abdo — Estudante de Análise e Desenvolvimento de Sistemas com experiência em desenvolvimento web, Node.js, React, JavaScript e SQL." />
+  <meta name="keywords" content="currículo, desenvolvedor web, estagiário, Node.js, React, JavaScript, SQL, Renan Bessa, ADS, FATEC SENAI" />
+  <meta name="author" content="Renan Bessa Abdo" />
+  <title>Renan Bessa Abdo | Currículo — Desenvolvedor Web</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#cv-header" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>RBA<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#profile" class="nav-link" id="nav-profile">Perfil</a></li>
+        <li><a href="#education" class="nav-link" id="nav-education">Formação</a></li>
+        <li><a href="#experience" class="nav-link" id="nav-experience">Experiência</a></li>
+        <li><a href="#skills" class="nav-link" id="nav-skills">Habilidades</a></li>
+        <li><a href="#projects" class="nav-link" id="nav-projects">Projetos</a></li>
+        <li><a href="#contact" class="nav-link" id="nav-contact">Contato</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== CV HEADER ========== -->
+  <header class="cv-header" id="cv-header">
+    <div class="cv-header-bg"></div>
+    <div class="cv-header-content">
+      <div class="cv-photo-wrapper" data-reveal>
+        <div class="cv-photo-ring"></div>
+        <div class="cv-photo-container">
+          <img src="assets/images/profile.png" alt="Renan Bessa Abdo" class="cv-photo" id="profile-photo" />
+        </div>
+      </div>
+
+      <div class="cv-header-info" data-reveal>
+        <h1 class="cv-name">Renan Bessa <span class="cv-name-accent">Abdo</span></h1>
+        <p class="cv-title"><i class="fas fa-code"></i> Desenvolvedor Web Full Stack · Estudante de ADS</p>
+        
+        <div class="cv-contact-row">
+          <a href="mailto:renanbessa65@gmail.com" class="cv-contact-item" id="cv-email">
+            <i class="fas fa-envelope"></i>
+            <span>renanbessa65@gmail.com</span>
+          </a>
+          <a href="tel:+5566992169482" class="cv-contact-item" id="cv-phone">
+            <i class="fas fa-phone"></i>
+            <span>(66) 99216-9482</span>
+          </a>
+          <a href="https://github.com/renanbessa05" target="_blank" rel="noopener" class="cv-contact-item" id="cv-github">
+            <i class="fab fa-github"></i>
+            <span>github.com/renanbessa05</span>
+          </a>
+          <span class="cv-contact-item cv-location">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Rondonópolis — MT</span>
+          </span>
+        </div>
+
+        <div class="cv-availability">
+          <span class="availability-dot"></span>
+          <span>Disponível para novas oportunidades</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== PERFIL PROFISSIONAL ========== -->
+  <section class="cv-section" id="profile">
+    <div class="container">
+      <div class="cv-section-header" data-reveal>
+        <div class="section-icon"><i class="fas fa-user"></i></div>
+        <h2 class="section-title">Perfil Profissional</h2>
+      </div>
+
+      <div class="profile-content" data-reveal>
+        <p>
+          Estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> pela FATEC SENAI MT, com
+          experiência em ambientes industriais e administrativos. Possuo habilidades em organização de
+          tarefas, controle de processos e suporte à equipe. Tenho facilidade de comunicação, sou proativo,
+          comprometido com prazos e metas, e busco sempre contribuir com soluções e melhorias no ambiente de trabalho.
+        </p>
+        <p>
+          No desenvolvimento web, trabalho com <strong>HTML5</strong>, <strong>CSS3</strong> e
+          <strong>JavaScript</strong> puro, criando interfaces modernas e responsivas. Estudo
+          <strong>React</strong> e <strong>Node.js</strong> para expandir minhas habilidades no
+          ecossistema JavaScript, além de trabalhar com bancos de dados <strong>SQL</strong> e aplicar
+          princípios de <strong>Programação Orientada a Objetos</strong>. Utilizo <strong>Git</strong>
+          para controle de versão e ferramentas de IA generativa para acelerar o desenvolvimento.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FORMAÇÃO ACADÊMICA ========== -->
+  <section class="cv-section cv-section-alt" id="education">
+    <div class="container">
+      <div class="cv-section-header" data-reveal>
+        <div class="section-icon"><i class="fas fa-graduation-cap"></i></div>
+        <h2 class="section-title">Formação Acadêmica</h2>
+      </div>
+
+      <div class="timeline">
+        <!-- ADS -->
+        <div class="timeline-item" data-reveal id="edu-ads">
+          <div class="timeline-dot">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Análise e Desenvolvimento de Sistemas (ADS)</h3>
+                <span class="timeline-role">Curso Superior · FATEC SENAI MT — Rondonópolis</span>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-badge badge-progress"><i class="fas fa-spinner"></i> Em andamento</span>
+                <span class="timeline-date">2024 — 2027</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ensino Médio -->
+        <div class="timeline-item" data-reveal id="edu-medio">
+          <div class="timeline-dot">
+            <i class="fas fa-school"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Ensino Médio</h3>
+                <span class="timeline-role">Escola Estadual Santa Elvira</span>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-badge badge-done"><i class="fas fa-check"></i> Concluído</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cursos Complementares -->
+      <div class="courses-section" data-reveal>
+        <h3 class="courses-title"><i class="fas fa-certificate"></i> Cursos & Certificações</h3>
+        <div class="courses-grid">
+          <div class="course-chip">
+            <i class="fas fa-check-circle"></i>
+            <span>Agricultura de Precisão e Tecnologia — SENAI MT (40h)</span>
+          </div>
+          <div class="course-chip">
+            <i class="fas fa-check-circle"></i>
+            <span>Comunicação Empresarial (60h)</span>
+          </div>
+          <div class="course-chip">
+            <i class="fas fa-check-circle"></i>
+            <span>Interação Humano-Computador (60h)</span>
+          </div>
+          <div class="course-chip">
+            <i class="fas fa-check-circle"></i>
+            <span>Fundamentos de Estatística (30h)</span>
+          </div>
+          <div class="course-chip">
+            <i class="fas fa-check-circle"></i>
+            <span>Empreendedorismo e Estratégias de Negócio (60h)</span>
+          </div>
+          <div class="course-chip">
+            <i class="fas fa-check-circle"></i>
+            <span>Relações Humanas no Trabalho (60h)</span>
+          </div>
+          <div class="course-chip">
+            <i class="fas fa-check-circle"></i>
+            <span>Metodologia Científica (60h)</span>
+          </div>
+          <div class="course-chip course-chip-pending">
+            <i class="fas fa-clock"></i>
+            <span>Gestão de Projetos (60h) — em andamento</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIÊNCIA PROFISSIONAL ========== -->
+  <section class="cv-section" id="experience">
+    <div class="container">
+      <div class="cv-section-header" data-reveal>
+        <div class="section-icon"><i class="fas fa-briefcase"></i></div>
+        <h2 class="section-title">Experiência Profissional</h2>
+      </div>
+
+      <div class="timeline">
+        <!-- Monaco Centro Oeste -->
+        <div class="timeline-item" data-reveal id="exp-monaco">
+          <div class="timeline-dot">
+            <i class="fas fa-tools"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Monaco Centro Oeste Ltda</h3>
+                <span class="timeline-role">Aprendiz de Mecânica</span>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-badge badge-done"><i class="fas fa-check"></i> Concluído</span>
+                <span class="timeline-date">Abr/2025 — Set/2025</span>
+              </div>
+            </div>
+            <ul class="timeline-list">
+              <li>Organização de ferramentas e materiais</li>
+              <li>Apoio na manutenção e ordens de serviço</li>
+              <li>Colaboração com equipe técnica no controle e rotina do setor</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Ambios Fertilizantes -->
+        <div class="timeline-item" data-reveal id="exp-ambios">
+          <div class="timeline-dot">
+            <i class="fas fa-industry"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Ambios Fertilizantes Ltda</h3>
+                <span class="timeline-role">Auxiliar de Produção</span>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-badge badge-done"><i class="fas fa-check"></i> Concluído</span>
+                <span class="timeline-date">Nov/2024 — Fev/2025</span>
+              </div>
+            </div>
+            <ul class="timeline-list">
+              <li>Operação de painel de controle</li>
+              <li>Monitoramento de etapas do processo produtivo</li>
+              <li>Suporte em preenchimento de relatórios operacionais</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HABILIDADES ========== -->
+  <section class="cv-section cv-section-alt" id="skills">
+    <div class="container">
+      <div class="cv-section-header" data-reveal>
+        <div class="section-icon"><i class="fas fa-layer-group"></i></div>
+        <h2 class="section-title">Habilidades Técnicas</h2>
+      </div>
+
+      <div class="skills-columns">
+        <!-- Coluna 1 — Desenvolvimento -->
+        <div class="skills-group" data-reveal>
+          <h3 class="skills-group-title"><i class="fas fa-code"></i> Desenvolvimento</h3>
+          
+          <div class="skill-row">
+            <div class="skill-info">
+              <i class="fab fa-js skill-color-yellow"></i>
+              <span>JavaScript (ES6+)</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="90"></div>
+            </div>
+            <span class="skill-value">90%</span>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <i class="fab fa-node-js skill-color-green"></i>
+              <span>Node.js</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="85"></div>
+            </div>
+            <span class="skill-value">85%</span>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <i class="fab fa-react skill-color-blue"></i>
+              <span>React</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="80"></div>
+            </div>
+            <span class="skill-value">80%</span>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <i class="fab fa-html5 skill-color-pink"></i>
+              <span>HTML5 / CSS3</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="82"></div>
+            </div>
+            <span class="skill-value">82%</span>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <i class="fas fa-database skill-color-orange"></i>
+              <span>SQL (MySQL / PostgreSQL)</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="75"></div>
+            </div>
+            <span class="skill-value">75%</span>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <i class="fas fa-cubes skill-color-purple"></i>
+              <span>POO / SOLID</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="78"></div>
+            </div>
+            <span class="skill-value">78%</span>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <i class="fab fa-git-alt skill-color-orange"></i>
+              <span>Git / GitHub</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="80"></div>
+            </div>
+            <span class="skill-value">80%</span>
+          </div>
+        </div>
+
+        <!-- Coluna 2 — Complementares & IA -->
+        <div class="skills-group" data-reveal>
+          <h3 class="skills-group-title"><i class="fas fa-brain"></i> Complementares & IA</h3>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <i class="fas fa-robot skill-color-purple"></i>
+              <span>Vibe Coding + IA</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill vibe-bar" data-width="92"></div>
+            </div>
+            <span class="skill-value">92%</span>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <i class="fas fa-server skill-color-green"></i>
+              <span>REST APIs</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="85"></div>
+            </div>
+            <span class="skill-value">85%</span>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <i class="fas fa-mobile-alt skill-color-blue"></i>
+              <span>Design Responsivo</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="82"></div>
+            </div>
+            <span class="skill-value">82%</span>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <i class="fas fa-file-excel skill-color-green"></i>
+              <span>Pacote Office</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="70"></div>
+            </div>
+            <span class="skill-value">70%</span>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <i class="fas fa-network-wired skill-color-blue"></i>
+              <span>Hardware, Software e Redes</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="65"></div>
+            </div>
+            <span class="skill-value">65%</span>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <i class="fas fa-tasks skill-color-yellow"></i>
+              <span>Organização e Processos</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="80"></div>
+            </div>
+            <span class="skill-value">80%</span>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <i class="fas fa-comments skill-color-pink"></i>
+              <span>Comunicação e Trabalho em Equipe</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" data-width="85"></div>
+            </div>
+            <span class="skill-value">85%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ferramentas -->
+      <div class="tools-section" data-reveal>
+        <h3 class="tools-title">Ferramentas & Tecnologias</h3>
+        <div class="tools-grid">
+          <div class="tool-chip" id="tool-git"><i class="fab fa-git-alt"></i><span>Git</span></div>
+          <div class="tool-chip" id="tool-github"><i class="fab fa-github"></i><span>GitHub</span></div>
+          <div class="tool-chip" id="tool-vscode"><i class="fas fa-code"></i><span>VS Code</span></div>
+          <div class="tool-chip" id="tool-npm"><i class="fab fa-npm"></i><span>NPM</span></div>
+          <div class="tool-chip" id="tool-linux"><i class="fab fa-linux"></i><span>Linux</span></div>
+          <div class="tool-chip" id="tool-postman"><i class="fas fa-satellite-dish"></i><span>Postman</span></div>
+          <div class="tool-chip" id="tool-office"><i class="fas fa-file-word"></i><span>Office</span></div>
+          <div class="tool-chip tool-chip-ai" id="tool-gemini"><i class="fas fa-gem"></i><span>Gemini</span></div>
+          <div class="tool-chip tool-chip-ai" id="tool-gpt"><span class="tool-emoji">🤖</span><span>ChatGPT</span></div>
+          <div class="tool-chip tool-chip-ai" id="tool-claude"><span class="tool-emoji">🧠</span><span>Claude</span></div>
+          <div class="tool-chip tool-chip-ai" id="tool-v0"><i class="fas fa-bolt"></i><span>V0.dev</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJETOS PESSOAIS ========== -->
+  <section class="cv-section" id="projects">
+    <div class="container">
+      <div class="cv-section-header" data-reveal>
+        <div class="section-icon"><i class="fas fa-rocket"></i></div>
+        <h2 class="section-title">Projetos de Desenvolvimento</h2>
+      </div>
+
+      <div class="timeline">
+        <!-- AuraJuris -->
+        <div class="timeline-item" data-reveal id="proj-aurajuris">
+          <div class="timeline-dot">
+            <i class="fas fa-gavel"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">AuraJuris</h3>
+                <span class="timeline-role">Plataforma jurídica com IA</span>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-badge badge-production"><i class="fas fa-circle"></i> Em produção</span>
+                <span class="timeline-badge badge-vibe"><i class="fas fa-brain"></i> Vibe Coding</span>
+              </div>
+            </div>
+            <p class="timeline-description">
+              Plataforma jurídica com geração de peças processuais via API de IA.
+              O sistema interpreta o caso do cliente e redige documentos jurídicos automaticamente.
+            </p>
+            <div class="timeline-techs">
+              <span>JavaScript</span>
+              <span>API de IA</span>
+              <span>Vibe Coding</span>
+              <span>Vercel</span>
+            </div>
+            <a href="https://aura-juriss.vercel.app/" target="_blank" rel="noopener" class="timeline-link">
+              <i class="fas fa-external-link-alt"></i> Ver projeto ao vivo
+            </a>
+          </div>
+        </div>
+
+        <!-- Hellen CRM -->
+        <div class="timeline-item" data-reveal id="proj-hellen">
+          <div class="timeline-dot">
+            <i class="fas fa-clipboard-list"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Hellen CRM</h3>
+                <span class="timeline-role">Formulário inteligente para personal chef</span>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-badge badge-done"><i class="fas fa-check"></i> Entregue</span>
+              </div>
+            </div>
+            <p class="timeline-description">
+              Formulário inteligente para personal chef: o cliente preenche suas preferências,
+              restrições e ocasião, e o sistema elabora a proposta de cardápio personalizada.
+            </p>
+            <div class="timeline-techs">
+              <span>JavaScript</span>
+              <span>HTML/CSS</span>
+              <span>Formulário</span>
+              <span>Vercel</span>
+            </div>
+            <a href="https://hellen-crm.vercel.app/" target="_blank" rel="noopener" class="timeline-link">
+              <i class="fas fa-external-link-alt"></i> Ver projeto ao vivo
+            </a>
+          </div>
+        </div>
+
+        <!-- Originária Cozinha -->
+        <div class="timeline-item" data-reveal id="proj-originaria">
+          <div class="timeline-dot">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Originária Cozinha</h3>
+                <span class="timeline-role">Sistema de pedidos online</span>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-badge badge-study"><i class="fas fa-flask"></i> Projeto de estudo</span>
+              </div>
+            </div>
+            <p class="timeline-description">
+              Sistema de pedidos de comidas online com cardápio interativo,
+              seleção de pratos e fluxo de pedido completo.
+            </p>
+            <div class="timeline-techs">
+              <span>JavaScript</span>
+              <span>HTML/CSS</span>
+              <span>Vercel</span>
+            </div>
+            <a href="https://originaria-cozinha.vercel.app/" target="_blank" rel="noopener" class="timeline-link">
+              <i class="fas fa-external-link-alt"></i> Ver projeto ao vivo
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="github-cta" data-reveal>
+        <a href="https://github.com/renanbessa05" target="_blank" rel="noopener" class="btn-github">
+          <i class="fab fa-github"></i> Ver mais projetos no GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTATO ========== -->
+  <section class="cv-section cv-section-alt" id="contact">
+    <div class="container">
+      <div class="cv-section-header" data-reveal>
+        <div class="section-icon"><i class="fas fa-paper-plane"></i></div>
+        <h2 class="section-title">Contato</h2>
+      </div>
+
+      <div class="contact-cards" data-reveal>
+        <a href="mailto:renanbessa65@gmail.com" class="contact-card-cv" id="contact-email-card">
+          <div class="contact-card-icon-cv"><i class="fas fa-envelope"></i></div>
+          <div>
+            <h4>E-mail</h4>
+            <span>renanbessa65@gmail.com</span>
+          </div>
+        </a>
+
+        <a href="https://wa.me/5566992169482" target="_blank" rel="noopener" class="contact-card-cv" id="contact-whatsapp-card">
+          <div class="contact-card-icon-cv whatsapp"><i class="fab fa-whatsapp"></i></div>
+          <div>
+            <h4>WhatsApp</h4>
+            <span>(66) 99216-9482</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/renanbessa05" target="_blank" rel="noopener" class="contact-card-cv" id="contact-github-card">
+          <div class="contact-card-icon-cv github"><i class="fab fa-github"></i></div>
+          <div>
+            <h4>GitHub</h4>
+            <span>github.com/renanbessa05</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <span class="logo-bracket">&lt;</span>RBA<span class="logo-bracket">/&gt;</span>
+      </div>
+      <p class="footer-tagline">Desenvolvedor Web Full Stack · Estudante de ADS</p>
+      <div class="footer-socials">
+        <a href="https://github.com/renanbessa05" target="_blank" rel="noopener" class="footer-social" id="footer-github" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:renanbessa65@gmail.com" class="footer-social" id="footer-email" aria-label="E-mail">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://wa.me/5566992169482" target="_blank" rel="noopener" class="footer-social" id="footer-whatsapp" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+      <p class="footer-copy">&copy; <span id="footer-year"></span> Renan Bessa Abdo — Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

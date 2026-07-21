@@ -52,7 +52,7 @@ export default function Sidebar({ activeSection }) {
           </ul>
         </nav>
 
-        <footer className="sidebar-footer">
+          <footer className="sidebar-footer">
           <div className="social-links">
             <a href="https://github.com/renanbessa05" target="_blank" rel="noreferrer" aria-label="GitHub">
               <i className="fab fa-github"></i>
@@ -64,6 +64,10 @@ export default function Sidebar({ activeSection }) {
               <i className="fab fa-whatsapp"></i>
             </a>
           </div>
+          
+          <button className="btn-download-pdf" onClick={() => window.print()}>
+            <i className="fas fa-file-pdf"></i> Baixar Currículo
+          </button>
         </footer>
       </div>
     </aside>

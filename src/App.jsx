@@ -14,11 +14,11 @@ function App() {
     
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
-        if (entry.isIntersecting && entry.intersectionRatio >= 0.2) {
+        if (entry.isIntersecting) {
           setActiveSection(entry.target.id);
         }
       });
-    }, { threshold: [0.2, 0.5, 0.8] });
+    }, { rootMargin: '-20% 0px -70% 0px' });
 
     sections.forEach(section => observer.observe(section));
     return () => observer.disconnect();

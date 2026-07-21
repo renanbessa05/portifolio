@@ -55,26 +55,26 @@ export default function Skills() {
           <div className="skills-group" data-reveal ref={col1Ref}>
             <h3 className="skills-group-title"><i className="fas fa-code"></i> Desenvolvimento</h3>
             
-            <SkillRow icon="fab fa-js" color="yellow" label="JavaScript (ES6+)" value="90" barsRef={barsRef} index={0} />
-            <SkillRow icon="fab fa-node-js" color="green" label="Node.js" value="85" barsRef={barsRef} index={1} />
-            <SkillRow icon="fab fa-react" color="blue" label="React" value="80" barsRef={barsRef} index={2} />
-            <SkillRow icon="fab fa-html5" color="pink" label="HTML5 / CSS3" value="82" barsRef={barsRef} index={3} />
-            <SkillRow icon="fas fa-database" color="orange" label="SQL (MySQL / PostgreSQL)" value="75" barsRef={barsRef} index={4} />
-            <SkillRow icon="fas fa-cubes" color="purple" label="POO / SOLID" value="78" barsRef={barsRef} index={5} />
-            <SkillRow icon="fab fa-git-alt" color="orange" label="Git / GitHub" value="80" barsRef={barsRef} index={6} />
+            <SkillRow icon="fab fa-js" color="yellow" label="JavaScript (ES6+) / React" value="90" barsRef={barsRef} index={0} />
+            <SkillRow icon="fas fa-server" color="green" label="Node.js / APIs REST" value="85" barsRef={barsRef} index={1} />
+            <SkillRow icon="fab fa-windows" color="blue" label="C# / .NET (Estudando)" value="60" barsRef={barsRef} index={2} />
+            <SkillRow icon="fas fa-database" color="orange" label="SQL Server / MySQL" value="80" barsRef={barsRef} index={3} />
+            <SkillRow icon="fas fa-cubes" color="purple" label="POO / SOLID" value="85" barsRef={barsRef} index={4} />
+            <SkillRow icon="fab fa-git-alt" color="orange" label="Git / GitHub" value="85" barsRef={barsRef} index={5} />
+            <SkillRow icon="fas fa-project-diagram" color="pink" label="Modelagem de Processos / Requisitos" value="75" barsRef={barsRef} index={6} />
           </div>
 
           {/* Coluna 2 — Complementares & IA */}
           <div className="skills-group" data-reveal ref={col2Ref}>
-            <h3 className="skills-group-title"><i className="fas fa-brain"></i> Complementares & IA</h3>
+            <h3 className="skills-group-title"><i className="fas fa-brain"></i> Complementares & Metodologias</h3>
 
-            <SkillRow icon="fas fa-robot" color="purple" label="Vibe Coding + IA" value="92" barsRef={barsRef} index={7} isVibe />
-            <SkillRow icon="fas fa-server" color="green" label="REST APIs" value="85" barsRef={barsRef} index={8} />
-            <SkillRow icon="fas fa-mobile-alt" color="blue" label="Design Responsivo" value="82" barsRef={barsRef} index={9} />
-            <SkillRow icon="fas fa-file-excel" color="green" label="Pacote Office" value="70" barsRef={barsRef} index={10} />
-            <SkillRow icon="fas fa-network-wired" color="blue" label="Hardware, Software e Redes" value="65" barsRef={barsRef} index={11} />
-            <SkillRow icon="fas fa-tasks" color="yellow" label="Organização e Processos" value="80" barsRef={barsRef} index={12} />
-            <SkillRow icon="fas fa-comments" color="pink" label="Comunicação e Trabalho em Equipe" value="85" barsRef={barsRef} index={13} />
+            <SkillRow icon="fas fa-users-cog" color="blue" label="Scrum / Metodologias Ágeis" value="85" barsRef={barsRef} index={7} />
+            <SkillRow icon="fas fa-robot" color="purple" label="Vibe Coding + IA" value="92" barsRef={barsRef} index={8} isVibe />
+            <SkillRow icon="fas fa-lightbulb" color="yellow" label="Raciocínio Lógico e Analítico" value="90" barsRef={barsRef} index={9} />
+            <SkillRow icon="fas fa-comments" color="pink" label="Comunicação e Trabalho em Equipe" value="90" barsRef={barsRef} index={10} />
+            <SkillRow icon="fas fa-tasks" color="green" label="Organização e Processos" value="85" barsRef={barsRef} index={11} />
+            <SkillRow icon="fas fa-file-excel" color="green" label="Pacote Office" value="75" barsRef={barsRef} index={12} />
+            <SkillRow icon="fas fa-network-wired" color="blue" label="Hardware, Software e Redes" value="70" barsRef={barsRef} index={13} />
           </div>
         </div>
 

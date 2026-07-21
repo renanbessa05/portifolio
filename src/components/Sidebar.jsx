@@ -10,10 +10,10 @@ export default function Sidebar({ activeSection }) {
           </div>
           <h1 className="sidebar-name">Renan Bessa Abdo</h1>
           <h2 className="sidebar-title">Desenvolvedor Web Full Stack</h2>
-          <p className="sidebar-subtitle">Estudante de ADS · Rondonópolis, MT</p>
+          <p className="sidebar-subtitle">Estudante de ADS · Rondonópolis / Cuiabá, MT</p>
           <div className="availability-badge">
             <span className="dot"></span>
-            Disponível para oportunidades
+            Disponível p/ mudança (Cuiabá)
           </div>
         </header>
 

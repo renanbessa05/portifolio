@@ -30,18 +30,15 @@ export default function Profile() {
 
         <div className="profile-content" data-reveal ref={contentRef}>
           <p>
-            Estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> pela FATEC SENAI MT, com
-            experiência em ambientes industriais e administrativos. Possuo habilidades em organização de
-            tarefas, controle de processos e suporte à equipe. Tenho facilidade de comunicação, sou proativo,
-            comprometido com prazos e metas, e busco sempre contribuir com soluções e melhorias no ambiente de trabalho.
+            Estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> pela FATEC SENAI MT. 
+            Possuo forte interesse no desenvolvimento de software, análise de sistemas e evolução de sistemas complexos, como <strong>plataformas ERP</strong>. 
+            Com experiência prévia em rotinas operacionais e industriais, desenvolvi boa capacidade de organização, 
+            raciocínio lógico e analítico. Sou proativo, possuo ótima comunicação e muita vontade de aprender e colaborar com a equipe.
           </p>
           <p>
-            No desenvolvimento web, trabalho com <strong>HTML5</strong>, <strong>CSS3</strong> e
-            <strong>JavaScript</strong> puro, criando interfaces modernas e responsivas. Estudo
-            <strong>React</strong> e <strong>Node.js</strong> para expandir minhas habilidades no
-            ecossistema JavaScript, além de trabalhar com bancos de dados <strong>SQL</strong> e aplicar
-            princípios de <strong>Programação Orientada a Objetos</strong>. Utilizo <strong>Git</strong>
-            para controle de versão e ferramentas de IA generativa para acelerar o desenvolvimento.
+            Tenho experiência na criação de <strong>Aplicações Web</strong> e consumo de <strong>APIs</strong> modernas, aplicando conceitos sólidos de <strong>Lógica de Programação</strong> e <strong>Programação Orientada a Objetos (POO)</strong>. 
+            Trabalho com modelagem e consultas em bancos de dados relacionais (<strong>SQL Server</strong>, MySQL) e possuo noções práticas de <strong>levantamento de requisitos</strong> e regras de negócio.
+            Atualmente focado no ecossistema JavaScript (React, Node.js), porém com forte interesse e disposição para atuar e me aprofundar em <strong>C# e ecossistema .NET</strong>. Utilizo <strong>Git</strong> e aplico conceitos de metodologias ágeis (Scrum) nos meus projetos.
           </p>
         </div>
       </div>

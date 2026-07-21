@@ -555,6 +555,19 @@ strong {
   body {
     background: white !important;
     font-size: 11pt; /* Fonte menor para caber melhor */
+    overflow: visible !important;
+    height: auto !important;
+  }
+  
+  html {
+    overflow: visible !important;
+    height: auto !important;
+  }
+
+  /* FORÇAR EXIBIÇÃO DE TUDO (ignorar animações de scroll) */
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
   }
 
   /* Ocultar elementos desnecessários na impressão */
